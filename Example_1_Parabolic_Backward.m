@@ -18,7 +18,7 @@ alpha=1/pi;
 %% Calling The User-Defined Code for the PDEs
 
 [XX,TT,w,  lambda, ExactSolution, AbsoluteError] = Parabolic_Backward(L,T,m,n,alpha);
-[XX,TT,w,  lambda] = Parabolic_Backward(L,T,m,n,alpha);
+%[XX,TT,w,  lambda] = Parabolic_Backward(L,T,m,n,alpha);
 % %% Plotting the Exact Solution
 % figure;
 % mesh(XX,TT, ExactSolution);
